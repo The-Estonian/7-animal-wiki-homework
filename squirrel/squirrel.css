@@ -22,3 +22,8 @@
 .nav-menu ul li:hover a{
     color: white;
 }
+
+.species-class,
+.p-tables{
+    font-weight: 500;
+}

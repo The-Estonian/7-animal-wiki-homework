@@ -18,3 +18,8 @@
 .nav-menu ul li a{
     color: black;
 }
+
+.species-class,
+.p-tables{
+    font-weight: 500;
+}

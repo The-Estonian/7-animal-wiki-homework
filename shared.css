@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  font-size: 1.01em;
 }
 
 body {
@@ -32,7 +31,6 @@ body {
 .p-tables {
   display: flex;
   flex-direction: row;
-  /* align-items: center; */
 }
 
 .p-scientific{
@@ -43,7 +41,6 @@ body {
 
 .p-scientific p{
   width: 90%;
-  padding: 5px;
   margin: auto 0;
 }
 
@@ -62,10 +59,21 @@ body {
 }
 
 .scientific-class table tr td{
-  font-family: 'Poppins', sans-serif;
-  font-size: 1em;
-  font-weight: 700;
   width: auto;
+}
+
+.font-weight{
+  font-weight: 700;
+}
+
+.table-font-bold{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.table-font{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
 }
 
 .species-class img{
@@ -96,9 +104,6 @@ body {
   
 }
 
-.nav-h1-img h1{
-  padding: 10px 0;
-}
 
 .nav-h1-img img {
   display: block;
