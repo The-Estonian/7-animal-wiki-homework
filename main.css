@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 100vh;
+    background: linear-gradient(315deg, #ffba08, #6a040f);
+}
+
+.nav-menu ul li{
+    border: 2px solid red;
+}
+
+
+.nav-menu ul li a{
+    color: white;
+}
