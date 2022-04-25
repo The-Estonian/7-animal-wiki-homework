@@ -6,6 +6,15 @@
     background: linear-gradient(315deg, #ffba08, #6a040f);
 }
 
+.nav-h1-img h1,
+.nav-h1-img h2,
+.nav-h1-img h3{
+    color: white;
+    padding: 3px;
+    padding-top: 0px;
+}
+
+
 .nav-menu ul li{
     border: 2px solid red;
 }

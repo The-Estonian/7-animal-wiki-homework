@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  font-size: 1.01em;
 }
 
 body {
@@ -20,40 +21,94 @@ body {
 
 .information-container {
   display: flex;
+  flex-direction: column;
   margin: auto;
-  width: 90%;
+  width: 100%;
   min-height: 90vh;
   box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
   border-radius: 12px;
-  padding: 10px;
 }
 
-.information-container p {
+.p-tables {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+}
+
+.p-scientific{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.p-scientific p{
+  width: 90%;
   padding: 5px;
+  margin: auto 0;
 }
 
-.p-tables{
-    display: flex;
-    flex-direction: column;
+.scientific-class{
+  text-align: center;
+  margin-bottom: auto;
+  width: 90%;
 }
 
-.tables{
-    border: 1px solid black;
+.scientific-class table{
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.scientific-class table tr td{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+  width: auto;
+}
+
+.species-class img{
+  margin: 10px;
+  max-height: 200px;
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+  border: 1px white solid;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.species-class{
+  text-align: center;
+  margin: auto;
+}
+
+.species-class table{
+  border-spacing: 10px 0px;
 }
 
 .nav-h1-img {
-   align-items: center;
+  align-items: center;
   display: flex;
   flex-direction: column;
   margin: 10px;
+  
+}
+
+.nav-h1-img h1{
+  padding: 10px 0;
 }
 
 .nav-h1-img img {
-    display: block;
-    max-width:200px;
-    max-height:200px;
-    width: auto;
-    height: auto;
+  display: block;
+  max-width: 200px;
+  max-height: 200px;
+  width: auto;
+  height: auto;
+  border: 1px white solid;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 .nav-menu ul {
@@ -89,11 +144,6 @@ body {
 .nav-menu ul li:hover {
   background: black;
   transition: 0s;
-}
-
-.tables {
-  display: flex;
-  flex-direction: column;
 }
 
 .footer {
