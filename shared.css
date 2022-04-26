@@ -76,12 +76,24 @@ body {
   font-weight: 400;
 }
 
-.species-class img{
+.species-class img {
   margin: 10px;
   max-height: 200px;
   max-width: 100%;
   height: auto;
   width: 100%;
+  border: 1px white solid;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.species-class iframe{
+  margin: 0;
+  padding: 0;
+  max-height: 200px;
+  max-width: auto;
+  height: 200px;
+  width: auto;
   border: 1px white solid;
   border-radius: 10px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);

@@ -25,16 +25,14 @@
 .menu-video {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  justify-content: center;
   width: 100%;
+  margin-top: auto;
 }
 
-.video-container {
+.picture-container{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin: auto;
-  font-size: 2em;
 }
 
 .nav-menu ul > li:nth-child(n) {
