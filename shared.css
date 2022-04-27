@@ -137,14 +137,17 @@ body {
 
 .nav-menu ul li {
   border-radius: 12px;
-  padding: 5px;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   transition: 2s;
+  overflow: hidden;
 }
 
 .nav-menu ul li a {
   text-decoration: none;
+  display: block;
+  padding: 5px;
+  overflow: hidden;
 }
 
 .nav-menu ul > li:nth-child(n + 2) {

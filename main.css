@@ -33,6 +33,7 @@
 .picture-container{
   display: flex;
   flex-direction: column;
+  padding: 0px 20%;
 }
 
 .nav-menu ul > li:nth-child(n) {
